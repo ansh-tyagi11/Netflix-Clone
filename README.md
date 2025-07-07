@@ -25,6 +25,7 @@ To run the project locally:
 2.  Navigate into the project folder:
    ```bash
    cd netflix-clone
+```
 
 3. Open index.html in your browser.
 
