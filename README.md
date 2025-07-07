@@ -21,9 +21,11 @@ To run the project locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/ansh-tyagi11/netflix-clone.git
+   
 2.  Navigate into the project folder:
    ```bash
    cd netflix-clone
+
 3. Open index.html in your browser.
 
 ## 📚 Learning Goals
