@@ -25,7 +25,7 @@ To run the project locally:
 2.  Navigate into the project folder:
    ```bash
    cd netflix-clone
-```
+    ```
 
 3. Open index.html in your browser.
 
@@ -34,5 +34,5 @@ To run the project locally:
 - Build responsive layouts with Flexbox and Grid
 - Understand how to style a real-world UI with pure CSS
 
-📄 License
-This project is for educational purposes only and is not affiliated with Netflix.
+## 📄 License
+- This project is for educational purposes only and is not affiliated with Netflix.
