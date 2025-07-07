@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    filter: blur(100%);
+    border: none;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/cb17c41d-6a67-4472-8b91-cca977e65276/web/IN-en-20250505-TRIFECTA-perspective_03ae1a85-5dcf-4d20-a8a6-1e61f7ef73cb_large.jpg);
+    height: 100vh;
+    margin-bottom: 0px;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    background-position: center center;
+    filter: blur(100%);
+}
+
+.flex {
+    display: flex;
+    top: 10px;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    width: 100vw;
+}
+
+img {
+    width: 100px;
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+}
+
+button {
+    color: white;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 10px 40px 10px 20px;
+    background: transparent;
+}
+
+#language {
+    padding: 10px 10px 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+#language img {
+    margin-left: 5px;
+}
+
+@media only screen and (max-width:400px) {
+    .unlimited {
+        padding-top: 0px;
+        margin: 0;
+    }
+
+    .margin {
+        margin: 0;
+        padding: 0px;
+    }
+
+    .english1 {
+        display: none;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #signin {
+        margin: 5px;
+        padding: 5px;
+    }
+}
+
+.margin {
+    justify-items: center;
+    text-align: center;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.unlimited {
+    padding-top: 100px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.start {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.ready {
+    font-size: 15px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+#email {
+    border: none;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin: auto;
+    padding: 15px 120px 10px 15px;
+    border-radius: 4px;
+    filter: opacity(0.7);
+}
+
+.button {
+    color: white;
+    border: 1px solid red;
+    background-color: red;
+    padding: 10px 40px 10px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mid {
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid red;
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 10px;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+}
+
+.mid2 {
+    margin-top: -20px;
+    background-color: black;
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 1;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.mid2 span {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    position: relative;
+    border: white;
+    font-size: 80px;
+    font-weight: 700;
+    z-index: 3;
+    bottom: -180px;
+    right: 20px;
+    color: rgb(45, 45, 45);
+
+}
+
+.mid2 ol {
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    min-width: 150px;
+    min-height: 276px;
+    background-position: centre centre;
+}
+
+.royal {
+    margin-top: 0px;
+    background-image: url(https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYVcRfFB91jy3f8-_Alb6H4RUzqXFRA7ejjOfCOXF20XLRVeCyT3ZFEimKbZAimt2ayVUWXSnp6ApNxpoK0mA3XzJD__irrDkdMD6lDrOFPSvQqP8s0xn2dNBaU9JxIu4lUd.webp?r=63b&);
+
+}
+
+.diplomate {
+    background-image: url(https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABUbEuw4gn448vhUbeTgwsmEsA4ZhBFHAbPyFyAk414jH72BDs0ALdA2TEDez1mRZHuyUjlpB_EL0LxkrymlRyHs2joUg2Izzl4Q.webp?r=ad2&);
+}
+
+.chhaava {
+    background-image: url(https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWtQdcUd4n6VKz6HTm_IbI2cOq0VDU7fDQpomIXBLuCYqtJ4j8hj2pz7j6spnX2osjRgTMJQ9xkMieYZWqC6xC8G4tGlTLJBm3I.webp?r=cc2&;);
+}
+
+.thief {
+    background-image: url(https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABevU_rod-DWQFVDKVJIZa2-B1BHMVv0YOFyu9puZxb2zdWcFd8hyhIG1NnR9eU7UZffMFgfm1dmtmdb7Z81lqIYZY3eSFu3RPseVoODvi9H2vIDD-JEJLYo2RWZ_WkfjXSJY.webp?r=0d8&);
+}
+
+.heist {
+    background-image: url(https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABf4wStrKekb1hEKRFD141eOa8rGZTWJK1QxVF2zxvJDivIDqQMNDUmh_d33HVtAxToXkZlAeLEzdhxPXCskBuNsi4X_wSv2Brzk.webp?r=7de&);
+}
+
+.dragon {
+    background-image: url(https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABSNKC7RgN9nPBTWwQhxbliIO6OreVBcYguVkrfIA1bGifb7Ej0d2EVCeiKQ6h_nGzHXi4L7RonMZRuLV3uBR3pnZO1NhEDcrxs4.webp?r=d56&);
+}
+
+.pushpa {
+    background-image: url(https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcBQAzZgCcAJyLKGf0x3EjJHKr1h1oCRUQDfVspaHXampP-RjiOkIRlWBz7ViFOvUI1EdPSRcxoOPmB7paPLi52W4OmQZJ4NDMQ.webp?r=a92&);
+}
+
+.court {
+    background-image: url(https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWICODelnT-cKofOSQdhQLss6C_fBti54ArwGM-lgCDCuQPcFWvvy5LVqIGVRrfpZWazXC7nexAvrML9AMcHfGXHY-atDP2BFyE.webp?r=cff&);
+}
+
+.deva {
+    background-image: url(https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZyM5lscAxvN0zIAK7uJHgaiKFhWnylqJ75bsgqxuwyGmkZqgXmjPOdkp-zSIHOZ7Ofu7n2toTy7CxdwCqwmkySxVFv-senKyDU.webp?r=133&);
+}
+
+.life {
+    background-image: url(https://occ-0-3752-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABa2fSipl5PZ4Yp1Zg-jbdAUQiRU5X9KqEG3w_6Z21aphltfxA4PNYA98JIJtUmACk8DQJq7BeHJJeFjXQ7aiCxtmvRY98kBzRjJW_C9i6gjz_NJ3pnL1CQuIJpNAdZ71NgRV.webp?r=4c4&);
+}
+
+.more {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: black;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    padding-left: 10vw;
+}
+
+main {
+    background-color: black;
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-bottom: 40px !important;
+    gap: 20px;
+}
+
+main span {
+    display: flex;
+    flex-direction: column;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    width: 270px;
+    height: 324px;
+    background-color: black;
+    margin-top: -25px;
+    border-radius: 10px;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    background: linear-gradient(#1a2043, #1d162b, #1d182f, #1c1932, #1f1221, #20111d);
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width:400px) {
+    main {
+        display: grid;
+        grid-template-columns: 100px;
+    }
+}
+
+footer {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: lighter;
+    background-color: black;
+    margin-top: -25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 100px;
+}
+
+footer h3 {
+    background-color: black;
+    font-weight: 500;
+    padding: 0px 10px 10px 10px;
+}
+
+footer p {
+    align-items: center;
+    background-color: black;
+    margin: 0px 0px 20px 10px;
+    border: none;
+    background-color: rgb(45, 45, 45);
+    justify-content: space-between;
+    align-content: centre;
+    box-sizing: border-box;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 0px;
+    font-weight: bold;
+    padding-right: none !important;
+    max-width: 80vw;
+}
+
+.footer2 {
+    margin-top: 60px;
+}
+
+.ready2 {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.form2 {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#email2 {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 2px solid white;
+    width: 350px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding: 15px 150px 10px 15px;
+}
+
+@media only screen and (max-width:400px) {
+    #email2 {
+        width: 130px;
+    }
+
+    .button2 {
+        flex-wrap: nowrap;
+        justify-content: left;
+    }
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+    border: 1px solid red;
+    background-color: red;
+    padding: 10px 40px 10px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+}
+
+.links {
+    margin-top: 50px;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10vw;
+}
+
+.links a {
+    width: 180px;
+}
