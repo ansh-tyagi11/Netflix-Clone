@@ -251,7 +251,6 @@ main span {
     color: white;
     width: 270px;
     height: 324px;
-    background-color: black;
     margin-top: -25px;
     border-radius: 10px;
     gap: 20px;
@@ -261,12 +260,50 @@ main span {
     border-radius: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+    main {
+        /* display: grid;
+        min-width: 300px;
+        grid-template-columns: 80vw; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main span {
+        gap: 50px;
+        width: 75vw;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    main {
+        display: grid;
+        min-width: 350px;
+        grid-template-columns: 300px 300px;
+    }
+
+    main span {
+        gap: 10px;
+        width: 280px;
+    }
+}
 
 @media only screen and (max-width:400px) {
     main {
         display: grid;
         grid-template-columns: 100px;
     }
+
+    main span {
+        width: 75vw;
+    }
+}
+
+.images {
+    position: relative;
+    padding: 0 !important;
+    top: 50px;
+    left: 175px;
 }
 
 footer {
