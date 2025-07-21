@@ -148,16 +148,43 @@ button {
     background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
 }
 
+.trending-scroll-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: black;
+}
+
+.card-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    display: flex;
+    width: 80%;
+}
+
+.card-container::-webkit-scrollbar {
+    display: none;
+}
+
 .mid2 {
     margin-top: -20px;
     background-color: black;
     display: flex;
     column-gap: 20px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row;
     flex-grow: 1;
     padding-left: 10vw;
     padding-right: 10vw;
+    padding: 0;
+    flex: 0 0 auto;
 }
 
 .mid2 span {
@@ -174,12 +201,13 @@ button {
 }
 
 .mid2 ol {
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 10px;
     border: none;
-    min-width: 150px;
+    min-width: 175px;
     min-height: 276px;
-    background-position: centre centre;
+    background-position: cover;
+    flex: 0 0 175px;
 }
 
 .royal {
